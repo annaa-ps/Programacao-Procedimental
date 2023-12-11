@@ -1,9 +1,9 @@
-/*1. Faça um programa que possua um vetor denominado A que armazene 6 números inteiros.
+/*1. FaÃ§a um programa que possua um vetor denominado A que armazene 6 nÃºmeros inteiros.
 O programa deve executar os seguintes passos:
 a) Atribua os seguintes valores a esse vetor: 1, 0, 5, -2, -5, 7.
-b) Armazene em uma variável inteira (simples) a soma entre os valores das posições
+b) Armazene em uma variÃ¡vel inteira (simples) a soma entre os valores das posiÃ§Ãµes
 A[0], A[1] e A[5] do vetor e mostre na tela esta soma.
-c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100.
+c) Modifique o vetor na posiÃ§Ã£o 4, atribuindo a esta posiÃ§Ã£o o valor 100.
 d) Mostre na tela cada valor do vetor A, um em cada linha.*/
 
 
@@ -29,9 +29,9 @@ int main()
     return 0;
 }
 -------------------------------------------------------------------
-/*2. Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois valores
-X e Y quaisquer correspondentes a duas posições no vetor. Ao final seu programa deverá
-escrever a soma dos valores encontrados nas respectivas posições X e Y*/
+/*2. FaÃ§a um programa que leia um vetor de 8 posiÃ§Ãµes e, em seguida, leia tambÃ©m dois valores
+X e Y quaisquer correspondentes a duas posiÃ§Ãµes no vetor. Ao final seu programa deverÃ¡
+escrever a soma dos valores encontrados nas respectivas posiÃ§Ãµes X e Y*/
 
 
 #include <stdio.h>
@@ -48,7 +48,7 @@ int main()
       scanf("%d", &A[i]);
     }
 
-    printf("\nQual eh a primeira posiçao para soma: ");
+    printf("\nQual eh a primeira posiÃ§ao para soma: ");
     scanf("%d", &x);
     printf("\nQual eh a segunda posicao para soma: ");
     scanf("%d", &y);
@@ -59,7 +59,7 @@ int main()
     return 0;
 }
 ------------------------------------------------------------
-/*3. Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os valores lidos na
+/*3. Crie um programa que lÃª 6 valores inteiros e, em seguida, mostre na tela os valores lidos na
 ordem inversa.
 */
 
@@ -89,7 +89,7 @@ int main()
     return 0;
 }
 ---------------------------------------------
-/*4. Fazer um programa para ler 5 valores e, em seguida, mostrar a posição onde se encontram o maior e o menor valor.*/
+/*4. Fazer um programa para ler 5 valores e, em seguida, mostrar a posiÃ§Ã£o onde se encontram o maior e o menor valor.*/
 
 
 #include <stdio.h>
@@ -130,8 +130,8 @@ int main()
     return 0;
 }
 -----------------------------------------------------------------------------------
-/* 5.Faça um vetor de tamanho 50 preenchido com o seguinte valor: (i+5*i)%(i+1), sendo i  
- a posição do elemento no vetor. Em seguida imprima o vetor na tela.  */ 
+/* 5.FaÃ§a um vetor de tamanho 50 preenchido com o seguinte valor: (i+5*i)%(i+1), sendo i  
+ a posiÃ§Ã£o do elemento no vetor. Em seguida imprima o vetor na tela.  */ 
   
  #include <stdio.h> 
   
@@ -146,8 +146,8 @@ int main()
    return 0; 
  } 
 --------------------------------------------------------------------------------------
- /* 6. Leia 10 números inteiros e armazene em um vetor. Em seguida escreva os elementos que  
- são primos e suas respectivas posições no vetor. 
+ /* 6. Leia 10 nÃºmeros inteiros e armazene em um vetor. Em seguida escreva os elementos que  
+ sÃ£o primos e suas respectivas posiÃ§Ãµes no vetor. 
  */ 
   
  #include <stdio.h> 
@@ -174,11 +174,11 @@ int main()
    return 0; 
  }
 ------------------------------------------------------------------------------------
-/* 7. Faça um programa que receba 6 números inteiros e mostre:
-Os números pares digitados;
-A soma dos números pares digitados;
-Os números ímpares digitados;
-A quantidade de números ímpares digitados;
+/* 7. FaÃ§a um programa que receba 6 nÃºmeros inteiros e mostre:
+Os nÃºmeros pares digitados;
+A soma dos nÃºmeros pares digitados;
+Os nÃºmeros Ã­mpares digitados;
+A quantidade de nÃºmeros Ã­mpares digitados;
  */ 
 #include <stdio.h> 
   
@@ -213,11 +213,11 @@ A quantidade de números ímpares digitados;
    return 0; 
  }
 ----------------------------------------------------------------
- /*8. Faça um programa para ler 10 números DIFERENTES a serem armazenados em um vetor. Os
-dados deverão ser armazenados no vetor na ordem que forem sendo lidos, sendo que caso
-o usuário digite um número que já foi digitado anteriormente, o programa deverá pedir para
-ele digitar outro número. Note que cada valor digitado pelo usuário deve ser pesquisado no
-vetor, verificando se ele existe entre os números que já foram fornecidos. Exibir na tela o
+ /*8. FaÃ§a um programa para ler 10 nÃºmeros DIFERENTES a serem armazenados em um vetor. Os
+dados deverÃ£o ser armazenados no vetor na ordem que forem sendo lidos, sendo que caso
+o usuÃ¡rio digite um nÃºmero que jÃ¡ foi digitado anteriormente, o programa deverÃ¡ pedir para
+ele digitar outro nÃºmero. Note que cada valor digitado pelo usuÃ¡rio deve ser pesquisado no
+vetor, verificando se ele existe entre os nÃºmeros que jÃ¡ foram fornecidos. Exibir na tela o
 vetor final que foi digitado.*/
 
 #include <stdio.h> 
@@ -226,7 +226,7 @@ vetor final que foi digitado.*/
    int A[10]; 
    for (int i = 0; i < 10; i++){ 
      int valor; 
-     printf("Digite o %dº valor: ", i + 1); 
+     printf("Digite o %dÂº valor: ", i + 1); 
      scanf("%d", &valor); 
      int existe = 0; 
      for (int j = 0; j < i; j++){ 
@@ -255,7 +255,7 @@ vetor final que foi digitado.*/
 
 ------------------------------------------------------------------
 Matriz:
-/* 1. Leia uma matriz 4 × 4, conte e escreva quantos valores maiores que 10 ela possui*/ 
+/* 1. Leia uma matriz 4 Ã— 4, conte e escreva quantos valores maiores que 10 ela possui*/ 
 
 #include <stdio.h> 
 #include<stdlib.h> 
@@ -285,7 +285,7 @@ Matriz:
     return 0; 
  }
 -------------------------------------------------------------
- /*2.Declare uma matriz 5 × 5. Preencha com 1 a diagonal principal e com 0 os demais elementos.Escreva ao final a matriz obtida.*/ 
+ /*2.Declare uma matriz 5 Ã— 5. Preencha com 1 a diagonal principal e com 0 os demais elementos.Escreva ao final a matriz obtida.*/ 
   
  #include <stdio.h> 
   
@@ -320,7 +320,7 @@ Matriz:
   
 
  --------------------------------------------------------------------------------
-  /* 3. Leia uma matriz 4 × 4, imprima a matriz e retorne a localização (linha e a coluna) do maior valor.*/ 
+  /* 3. Leia uma matriz 4 Ã— 4, imprima a matriz e retorne a localizaÃ§Ã£o (linha e a coluna) do maior valor.*/ 
   
  #include <stdio.h> 
   
@@ -347,9 +347,9 @@ Matriz:
    return 0; 
  } 
 -------------------------------------------------------------------------
-/*4. Leia uma matriz 5 × 5. Leia também um valor X. O programa deverá fazer uma busca desse
-valor na matriz e, ao final, escrever a localização (linha e coluna) ou uma mensagem de “não
-encontrado”.*/
+/*4. Leia uma matriz 5 Ã— 5. Leia tambÃ©m um valor X. O programa deverÃ¡ fazer uma busca desse
+valor na matriz e, ao final, escrever a localizaÃ§Ã£o (linha e coluna) ou uma mensagem de Â“nÃ£o
+encontradoÂ”.*/
 
 #include <stdio.h> 
 #include<stdlib.h> 
@@ -382,10 +382,10 @@ int mat[5][5];
     return 0;
 }
 -----------------------------------------------------------
- /* 5. Gerar e imprimir uma matriz de tamanho 10 × 10, onde seus elementos são da forma:  
+ /* 5. Gerar e imprimir uma matriz de tamanho 10 Ã— 10, onde seus elementos sÃ£o da forma:  
  A[i][j] = 2i + 7j - 2 se i < j;  
  A[i][j] = 3i2 - 1 se i = j;  
- A[i][j] = 4i3 – 5j2 + 1 se i > j: 
+ A[i][j] = 4i3 Â– 5j2 + 1 se i > j: 
  */ 
   
  #include <stdio.h> 
@@ -425,7 +425,7 @@ int mat[5][5];
  } 
   
  --------------------------------------------------------------------------------
- /* 6. Gere matriz 4 × 4 com valores no intervalo [1, 20]. Escreva um programa que transforme a  
+ /* 6. Gere matriz 4 Ã— 4 com valores no intervalo [1, 20]. Escreva um programa que transforme a  
  matriz gerada numa matriz triangular inferior, ou seja, atribuindo zero a todos os elementos  
  acima da diagonal principal. Imprima a matriz original e a matriz transformada.  
 
@@ -478,9 +478,9 @@ int mat[5][5];
   
  --------------------------------------------------------------------------------
   
- /* 7. Faça um programa para gerar automaticamente números entre  0 e 99 de  uma cartela de  
- bingo. Sabendo que cada cartela deverá conter 5 linhas de 5 números, gere estes dados de  
- modo  a  não  ter  números  repetidos  dentro  das  cartelas.  O  programa  deve  exibir  na tela  a  
+ /* 7. FaÃ§a um programa para gerar automaticamente nÃºmeros entre  0 e 99 de  uma cartela de  
+ bingo. Sabendo que cada cartela deverÃ¡ conter 5 linhas de 5 nÃºmeros, gere estes dados de  
+ modo  a  nÃ£o  ter  nÃºmeros  repetidos  dentro  das  cartelas.  O  programa  deve  exibir  na tela  a  
  cartela gerada. 
  */ 
 
@@ -536,11 +536,11 @@ int mat[5][5];
   
  -------------------------------------------------------------------------------
   
- /* 8. Faça um programa que leia duas matrizes 2  × 2 com valores reais. Ofereça ao usuário um 
- menu de opções: 
+ /* 8. FaÃ§a um programa que leia duas matrizes 2  Ã— 2 com valores reais. OfereÃ§a ao usuÃ¡rio um 
+ menu de opÃ§Ãµes: 
  a) somar as duas matrizes 
  b) subtrair a primeira matriz da segunda 
- c) adicionar uma constante às duas matrizes 
+ c) adicionar uma constante Ã s duas matrizes 
 
  d) imprimir as matrizes 
  */ 
@@ -556,7 +556,7 @@ int mat[5][5];
    { 
      for (int j = 0; j < 2; j++) 
      { 
-       printf("Digite o %dº valor da matriz A: ", i * 2 + j + 1); 
+       printf("Digite o %dÂº valor da matriz A: ", i * 2 + j + 1); 
        scanf("%d", &A[i][j]); 
      } 
    } 
@@ -565,15 +565,15 @@ int mat[5][5];
 
      for (int j = 0; j < 2; j++) 
      { 
-       printf("Digite o %dº valor da matriz B: ", i * 2 + j + 1); 
+       printf("Digite o %dÂº valor da matriz B: ", i * 2 + j + 1); 
        scanf("%d", &B[i][j]); 
      } 
    } 
    printf("1 - Somar as duas matrizes\n"); 
    printf("2 - Subtrair a primeira matriz da segunda\n"); 
-   printf("3 - Adicionar uma constante às duas matrizes\n"); 
+   printf("3 - Adicionar uma constante Ã s duas matrizes\n"); 
    printf("4 - Imprimir as matrizes\n"); 
-   printf("Digite a opção desejada: "); 
+   printf("Digite a opÃ§Ã£o desejada: "); 
    scanf("%d", &opcao); 
    switch (opcao) 
    { 
@@ -639,7 +639,7 @@ int mat[5][5];
      } 
      break; 
    default: 
-     printf("Opção inválida!\n"); 
+     printf("OpÃ§Ã£o invÃ¡lida!\n"); 
      break; 
    } 
    return 0; 
