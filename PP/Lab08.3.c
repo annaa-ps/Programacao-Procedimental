@@ -1,8 +1,8 @@
-1 Faça um programa que leia 2 valores inteiros e chame uma função que
+/*1 Faça um programa que leia 2 valores inteiros e chame uma função que
 receba estas 2 variáveis e troque o seu conteúdo, i.e., esta função é
 chamada passando duas variáveis A e B, por exemplo, e após a execução da
 função, A conterá o valor de B e B terá o valor de A. Imprima os valores
-antes e depois da troca.
+antes e depois da troca.*/ 
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -38,10 +38,10 @@ int main ()
     return 0;
 }
 -------------------------------------------------------------------------
-2 Faça um programa que leia dois valores inteiros e chame uma função que
+/*2 Faça um programa que leia dois valores inteiros e chame uma função que
 receba estes 2 valores de entrada e retorne o maior valor na primeira
 variável e o menor valor na segunda variável. Escreva o conteúdo das 2
-variáveis na tela.
+variáveis na tela.*/ 
 
 #include <stdio.h>
 
