@@ -1,6 +1,6 @@
 /*1 Determine o valor especificado em cada item abaixo considerando que foi
-executado as seguintes instruÁıes (assuma que o endereÁo de x È 1000 e
-de y È 1004):
+executado as seguintes instru√ß√µes (assuma que o endere√ßo de x √© 1000 e
+de y √© 1004):
  int x = 10, y=20;
  int* p1;
  int* p2;
@@ -44,9 +44,9 @@ int main(){
 
 ------------------------------------------------------------------------------
 /*2 Escreva um programa que declare um inteiro, um real e um char, e
-ponteiros para inteiro, real e char. Associe as vari·veis aos ponteiros (use
-&). Modifique os valores de cada vari·vel usando os ponteiros. Imprima os
-valores das vari·veis antes e apÛs a modificaÁ„o.*/
+ponteiros para inteiro, real e char. Associe as vari√°veis aos ponteiros (use
+&). Modifique os valores de cada vari√°vel usando os ponteiros. Imprima os
+valores das vari√°veis antes e ap√≥s a modifica√ß√£o.*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -65,7 +65,7 @@ int main(){
     p2 = &y;
     p3 = &z; 
     
-    //Lendo valores para vari·veis 
+    //Lendo valores para vari√°veis 
     printf("Digite o valor inteiro: \n");
     scanf("%d", &x); 
     printf("Digite o valor real: \n");
@@ -76,7 +76,7 @@ int main(){
     
     printf("\n");
 
-    //Imrpimindo valores antigos das vari·veis 
+    //Imrpimindo valores antigos das vari√°veis 
     printf("Valor antigo do inteiro: %d\n", x); 
     printf("Valor antigo do real: %.2f\n", y); 
     printf("Valor antigo char: %c\n", z); 
@@ -105,8 +105,8 @@ int main(){
     return 0;
 }
 ------------------------------------------------------------------
-/*3 Escreva um programa que contenha duas vari·veis inteiras. Compare seus
-endereÁos e exiba o maior endereÁo.*/
+/*3 Escreva um programa que contenha duas vari√°veis inteiras. Compare seus
+endere√ßos e exiba o maior endere√ßo.*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -131,18 +131,18 @@ int main(){
     return 0;
 }
 -----------------------------------------------------------------
-/*4 Escreva um programa que contenha duas vari·veis inteiras. Leia essas
-vari·veis do teclado. Em seguida, compare seus endereÁos e exiba o
-conte˙do do maior endereÁo.*/
+/*4 Escreva um programa que contenha duas vari√°veis inteiras. Leia essas
+vari√°veis do teclado. Em seguida, compare seus endere√ßos e exiba o
+conte√∫do do maior endere√ßo.*/
 
 #include<stdio.h>
 #include<stdlib.h>
 
 int main(){
-    //Declarando vari·veis
+    //Declarando vari√°veis
     int x, y;
 
-    //Lendo vari·veis do teclado
+    //Lendo vari√°veis do teclado
     printf("Informe o valor de x: ");
     scanf("%d", &x);
     printf("Informe o valor de y: "); 
@@ -152,11 +152,11 @@ int main(){
     int* p1;
     int *p2; 
 
-    //Apontando os ponteiros para as vari·veis declaradas 
+    //Apontando os ponteiros para as vari√°veis declaradas 
     p1 = &x; 
     p2 = &y; 
 
-    //Comparando o maior endereÁo de memÛria e imprimindo ele 
+    //Comparando o maior endere√ßo de mem√≥ria e imprimindo ele 
     if(p1>p2){
         printf("O endereco de %d eh maior, sendo ele: %p \n", x, &x);
     } else if (p2<p1){
@@ -166,19 +166,19 @@ int main(){
     return 0;
 }
 -------------------------------------------------------------------------
-/*5 FaÁa um programa que leia dois vari·veis do tipo inteiro (A e B) e duas do
-tipo ponteiro de inteiro apontando para essas vari·veis. Utilizando ponteiros,
-o programa deve retornar a soma do dobro dos dois n˙meros lidos. O dobro
-de A na prÛpria vari·vel A e o dobro de B na prÛpria vari·vel B.*/
+/*5 Fa√ßa um programa que leia dois vari√°veis do tipo inteiro (A e B) e duas do
+tipo ponteiro de inteiro apontando para essas vari√°veis. Utilizando ponteiros,
+o programa deve retornar a soma do dobro dos dois n√∫meros lidos. O dobro
+de A na pr√≥pria vari√°vel A e o dobro de B na pr√≥pria vari√°vel B.*/
 
 #include<stdio.h>
 #include<stdlib.h>
 
 int main(){
-    //Declarando vari·veis
+    //Declarando vari√°veis
     int A, B; 
 
-    //Lendo vari·veis do teclado
+    //Lendo vari√°veis do teclado
     printf("Informe o valor de A: ");
     scanf("%d", &A);
     printf("Informe o valor de B: "); 
@@ -188,7 +188,7 @@ int main(){
     int* p1;
     int *p2; 
 
-    //Apontando os ponteiros para as vari·veis declaradas
+    //Apontando os ponteiros para as vari√°veis declaradas
     p1 = &A; 
     p2 = &B;
     
@@ -199,33 +199,33 @@ int main(){
     return 0; 
 }
 ----------------------------------------------------------------------------------------
-/*6 Escreva um programa que declare duas vari·veis do tipo inteiro e duas do
-tipo ponteiro de inteiro apontando para essas vari·veis. Utilizando ponteiros,
-o programa deve ler dois n˙meros para essas vari·veis e os imprimir,
-realizando as quatro operaÁıes b·sicas de matem·tica com esses n˙meros.*/
+/*6 Escreva um programa que declare duas vari√°veis do tipo inteiro e duas do
+tipo ponteiro de inteiro apontando para essas vari√°veis. Utilizando ponteiros,
+o programa deve ler dois n√∫meros para essas vari√°veis e os imprimir,
+realizando as quatro opera√ß√µes b√°sicas de matem√°tica com esses n√∫meros.*/
 
 #include<stdio.h>
 #include<stdlib.h>
 
 int main (){
 
-    //Declarando Vari·veis
+    //Declarando Vari√°veis
     int A, B; 
 
     //Declarando Ponteiros
     int *p1, *p2; 
 
-    //Lendo vari·veis do teclado
+    //Lendo vari√°veis do teclado
     printf("Informe o valor de A: ");
     scanf("%d", &A);
     printf("Informe o valor de B: "); 
     scanf("%d", &B); 
 
-    //Apontando os ponteiros para as vari·veis declaradas
+    //Apontando os ponteiros para as vari√°veis declaradas
     p1 = &A; 
     p2 = &B;
 
-    //Realizando as operaÁıes b·sicas com os valors 
+    //Realizando as opera√ß√µes b√°sicas com os valors 
     printf("\nA soma  dos dois numero lidos eh: %d", ((*p1) + (*p2)));
     printf("\nA subtracao  dos dois numero lidos eh: %d", ((*p1) - (*p2)));
     printf("\nA multiplicacao  dos dois numero lidos eh: %d", ((*p1) * (*p2)));
@@ -234,22 +234,22 @@ int main (){
 return 0; 
 }
 --------------------------------------------------------------------------------------
-/*7 FaÁa um programa que declare trÍs vari·veis do tipo inteiro e trÍs do tipo
-ponteiro de inteiro apontando para essas vari·veis. Utilizando ponteiros, leia
-trÍs n˙meros e os imprima em ordem crescente. O programa deve
-apresentar tambÈm o endereÁo de memÛria desses n˙meros.*/
+/*7 Fa√ßa um programa que declare tr√™s vari√°veis do tipo inteiro e tr√™s do tipo
+ponteiro de inteiro apontando para essas vari√°veis. Utilizando ponteiros, leia
+tr√™s n√∫meros e os imprima em ordem crescente. O programa deve
+apresentar tamb√©m o endere√ßo de mem√≥ria desses n√∫meros.*/
 #include<stdio.h>
 #include<stdlib.h>
 
 int main (){
 
-    //Declarando Vari·veis
+    //Declarando Vari√°veis
     int A, B, C, p4; 
 
     //Declarando Ponteiros
     int *p1, *p2, *p3; 
 
-    //Lendo vari·veis do teclado
+    //Lendo vari√°veis do teclado
     printf("Informe o valor de A: ");
     scanf("%d", &A);
     printf("Informe o valor de B: "); 
@@ -257,7 +257,7 @@ int main (){
     printf("Informe o valor de C: "); 
     scanf("%d", &C); 
     
-    //Apontando os ponteiros para as vari·veis declaradas
+    //Apontando os ponteiros para as vari√°veis declaradas
     p1 = &A; 
     p2 = &B;
     p3 = &C; 
@@ -284,9 +284,9 @@ int main (){
 return 0; 
 }
 --------------------------------------------------------------------------------------
-/*8 FaÁa um programa que leia seis n˙meros e armazene-os em um vetor.
-Utilizando aritmÈtica de ponteiro, imprima os valores do vetor. O programa
-deve apresentar tambÈm o endereÁo de memÛria desses n˙meros.*/
+/*8 Fa√ßa um programa que leia seis n√∫meros e armazene-os em um vetor.
+Utilizando aritm√©tica de ponteiro, imprima os valores do vetor. O programa
+deve apresentar tamb√©m o endere√ßo de mem√≥ria desses n√∫meros.*/
 
 #include<stdio.h>
 #include<stdlib.h>
