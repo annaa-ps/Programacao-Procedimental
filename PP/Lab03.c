@@ -3,9 +3,6 @@ números maiores que 0
 
 
 #include <stdio.h>
-
-
-
 int main()
 
 {
